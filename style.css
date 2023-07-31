@@ -1,0 +1,812 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+ 
+
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px 0 0 20px;
+}
+
+header {
+    display: flex;
+    background: black;
+    z-index: -1;
+    /* position: sticky; */
+
+}
+
+ul {
+    display: flex;
+    padding: 0 25px 0 500px;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    float: left;
+
+}
+
+.live-demo {
+    display: none;
+
+}
+
+header button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background: white;
+    color: black;
+}
+
+header ul li:hover .live-demo {
+    display: block;
+    position: absolute;
+    background: black;
+
+}
+
+header ul li:hover .live-demo ul {
+    display: block;
+
+    padding: 0 0 0;
+
+
+}
+
+main {
+    background-image: linear-gradient(45deg,
+            rgba(66, 64, 64, 0.75),
+            rgba(42, 43, 44, 0.75)), url("lmage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+main h1 {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5rem;
+    padding: 200px 0 0 0;
+}
+
+main h2 {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    padding: 30px 0 0 0;
+}
+
+main p {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 30px 400px;
+}
+
+.section {
+    display: flex;
+    padding: 100px 200px;
+}
+
+i {
+    color: red;
+    padding: 0 50px 10px;
+
+}
+.box2{
+    overflow-y: hidden;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: black;
+    padding: 50px 50px;
+
+}
+
+.box2 p {
+    color: #767676;
+    padding: 30px 0 0 0;
+}
+
+.boxa {
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 20px 80px;
+}
+
+.Story {
+    display: flex;
+}
+
+.Story img {
+    width: 150%;
+
+}
+
+.box3 {
+    background: whitesmoke;
+    padding: 60px;
+}
+
+.box3 h2 {
+    font-size: 3rem;
+
+}
+
+.box3 h4 {
+    padding: 30px 0 30px;
+    font-size: 1.5rem;
+}
+
+.box3 button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    /* background: white; */
+    color: black;
+    border: 2px solid black;
+}
+
+.box3 button:hover {
+    background: black;
+    color: white;
+    transition: .8s;
+}
+
+.box3 p {
+    color: black;
+}
+
+.box3 h2 {
+    color: black;
+}
+
+.section2 h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.section2 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+}
+
+.imgA {
+    display: flex;
+    margin: 0 200px 20px 200px;
+
+
+}
+
+.img1 {
+    padding: 0 40px 0 0;
+    overflow-y: hidden;
+}
+
+.img1 img {
+    width: 200px;
+    height: 100%;
+}
+
+.imgB {
+    display: flex;
+    margin: 0 200px 20px 200px;
+
+
+}
+
+.section3 {
+    display: flex;
+    width: 100%;
+}
+.section3A{
+    display: flex;
+}
+.section3B{
+    display: flex;
+}
+
+.box4a {
+    background-image: url("background14.jpg");
+    background-size: cover;
+}
+
+.box4b {
+    background-image: url("background25.jpg");
+    background-size: cover;
+}
+
+.box4c {
+    background-image: url("background33.jpg");
+    background-size: cover;
+}
+
+.box4d {
+    background-image: url("background46.jpg");
+    background-size: cover;
+}
+
+.box4a h2 {
+    color: white;
+    padding: 300px 200px 50px 0;
+}
+
+.box4b h2 {
+    color: white;
+    padding: 300px 200px 50px 0;
+}
+
+.box4c h2 {
+    color: white;
+    padding: 300px 200px 50px 0;
+}
+
+.box4d h2 {
+    color: white;
+    padding: 300px 200px 50px 0;
+}
+
+p {
+    color: white;
+}
+
+.box4a button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+}
+
+.box4a button:hover {
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+
+.box4b button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+
+}
+
+.box4b button:hover {
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+
+.box4c button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px 40px 30px 40px;
+
+}
+
+.box4c button:hover {
+    background-color: black;
+    color: white;
+    transition: .8s;
+    color: black;
+}
+
+.box4d button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+
+}
+.box4d button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+.section4{
+    background-image: url("background57.jpg");
+    background-size: cover;
+}
+
+.box5{
+    display: flex;
+    padding: 30px 100px;
+}
+.box5A{
+    width: 700px;
+    margin: 0 20px 0 0;
+}
+.boxAa{
+    background: #cc2952;
+    padding: 80px 100px 50px 100px;
+    border-radius: 10px;
+}
+.boxAb{
+    background-color: white;
+    padding: 50px 30px 30px;
+    border-radius: 10px;
+}
+.boxAb p{
+    color: black;
+}
+.boxAb button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+
+}
+.boxAb button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+.box5B{
+    width: 700px;
+    margin: 0 20px 0 0;
+
+}
+.boxBa{
+    background:#29a7c6;
+    padding: 80px 100px 50px 100px;
+    border-radius: 10px;
+}
+.boxBb{
+    background-color: white;
+    padding: 50px 30px 30px;
+    border-radius: 10px;
+
+    
+}
+.boxBb button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+
+}
+.boxBb button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+
+
+
+.boxBb p{
+    color: black;
+}
+.box5C{
+    width: 700px;
+}
+.boxCa{
+    background:#ed6031;
+    padding: 80px 100px 50px 100px;
+    border-radius: 10px;
+}
+.boxCb{
+    background-color: white;
+    padding: 50px 30px 30px;
+    border-radius: 10px;
+
+    
+}
+.boxCb p{
+    color: black;
+}
+.boxCb button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px 40px 30px 40px;
+
+}
+.boxCb button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+}
+.section5{
+    display: flex;
+}
+
+form{
+    margin: 30px 10px 30px 100px;
+    width: 100%;
+}
+input{
+    width: 70%;
+}
+form button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 30px 40px 30px 40px;
+
+}
+form button:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: .8s;
+
+}
+.visit p{
+color:black;
+}
+.visit{
+    margin: 30px 300px 0 100px;
+}
+.visit h3{
+    padding: 40px 0 40px 0;
+}
+.section6{
+    background-color: #767676;
+    background-size: cover;
+    overflow: hidden;
+}
+.section6 button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(37, 34, 34);
+    color: whitesmoke;
+    margin: 30px 600px 30px 600px;
+
+}
+
+.section6 button:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+
+
+}
+.img2{
+    display: flex;
+    margin: 40px 200px 40px 200px;
+}
+.box6{
+    width: 10%;
+    margin: 0 10px 0 10px;
+}
+.box6 img{
+    object-fit: cover;
+    height: 100px ;
+    width: 100%;
+}
+.img3{
+    display: flex;
+    margin: 40px 200px 40px 200px;
+}
+.box7{
+    width: 10%;
+    margin: 0 10px 0 10px;
+}
+.box7 img{
+    object-fit: cover;
+    height: 100px ;
+    width: 100%;
+}
+footer{
+    background-color: bisque;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+footer p{
+    color: black;
+}
+
+@media screen and (max-width:1000px) {
+    header h1 {
+        font-size: 1.5rem;
+        padding: 10px 0 0 20px;
+        text-align: center;
+    }
+    
+    header {
+   flex-direction: column;
+        background: black;
+        z-index: -1;
+        /* position: sticky; */
+    
+    }
+    ul {
+        padding: 0 25px 0 50px;
+    }
+    header button {
+        width: 130px;
+        height: 40px;
+        margin: 20px 100px 0 100px;
+        border-radius: 10px;
+        background: white;
+        color: black;
+    }
+    main h1 {
+        text-align: center;
+        align-items: center;
+        font-size: 2.5rem;
+        padding: 200px 0 0 0;
+    }
+    
+    main h2 {
+        text-align: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 30px 0 0 0;
+    }
+    
+    main p {
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-size: 1rem;
+        padding: 30px 80px;
+    }
+  
+    .section {
+        padding: 100px 0px;
+    }
+    
+    
+    .box2 a {
+        padding: 50px 50px;
+    
+    }
+    
+    .box2 p {
+        padding: 30px 0 0 0;
+    }
+    
+    .boxa {
+        width: 40px;
+        height: 2px;
+        background: black;
+        margin: 20px 80px;
+    }
+    .Story {
+     flex-direction: column;
+    }
+    
+    .Story img {
+        width: 100%;
+    
+    }
+
+    
+    .imgA {
+        display: flex;
+        margin: 0 30px 20px 30px;
+    
+    
+    }
+    
+    .img1 {
+        padding: 0 30px 0 0;
+        overflow-y: hidden;
+    }
+    
+    .img1 img {
+        width: 120px;
+        height: 100%;
+        word-wrap: break-word;
+    }
+    
+    .imgB {
+        margin: 0 30px 20px 30px;
+    }
+    .box5{
+        display: flex;
+        padding: 30px 10px;
+    }
+    .boxAa{
+        background: #cc2952;
+        padding: 80px 45px 50px 45px;
+        border-radius: 10px;
+    }
+    .boxBa{
+        background: #29a7c6;
+        padding: 80px 45px 50px 45px;
+        border-radius: 10px;
+    }
+    .boxCa{
+        background:#ed6031;
+        padding: 80px 45px 50px 45px;
+        border-radius: 10px;
+    }
+    .boxAb button {
+       
+        margin: 30px 10px 30px 5px;
+    }
+    .boxBb button {
+       
+        margin: 30px 10px 30px 5px;
+    }
+    .boxCb button {
+       
+        margin: 30px 10px 30px 5px;
+    }
+    .section5{
+        display: flex;
+    }
+    
+    form{
+        margin: 30px 10px 30px 50px;
+        width: 100%;
+    }
+    .visit{
+        margin: 30px 30px 0 30px;
+    }
+    
+
+.img2{
+    display: flex;
+    margin: 40px 20px 40px 20px;
+}
+
+.img3{
+    display: flex;
+    margin: 40px 20px 40px 20px;
+}
+
+
+.section6 button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(37, 34, 34);
+    color: whitesmoke;
+    margin: 30px 200px 30px 400px;
+
+}
+    
+
+
+}
+
+
+
+/* 600 */
+@media screen and (max-width:600px) {
+    .section {
+        padding: 100px 100px;
+        flex-direction: column;
+
+    }
+    .box2 a {
+        padding: 50px 5px;
+    
+    }
+    .boxa {
+        background: black;
+        margin: 20px 30px;
+    }
+    .imgA {
+      flex-direction: column;
+        margin: 0 20px 0 50px;
+    
+    
+    }
+    .imgB {
+        margin: 0 20px 20px 50px;
+        flex-direction: column;
+    }
+    .img1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .section3A{
+        flex-direction: column;
+    }
+    .section3B{
+      flex-direction: column;
+    }
+    .box5{
+        flex-direction: column;
+        width: 80%;
+        padding: 0 30px 0 30px;
+    }
+    .boxAb{
+        background-color: white;
+        padding: 50px 400px 30px 10px;
+        border-radius: 10px;
+    }
+    .boxBb{
+        background-color: white;
+        padding: 50px 400px 30px 10px;
+        border-radius: 10px;
+    }
+    .boxCb{
+        background-color: white;
+        padding: 50px 400px 30px 10px;
+        border-radius: 10px;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .img2{
+        flex-direction: column;
+
+    }
+    .box6{
+        width: 60%;       
+        padding: 0 50px 0 50px;
+    }
+    .box7{
+        width: 60%;       
+        padding: 0 50px 0 50px;
+    }
+    .box7{
+        width: 60%;       
+    }
+    
+    .img3{
+        flex-direction: column;
+    }
+    .section6 button {
+        margin: 30px 100px 30px 130px;
+    
+    }
+   
+    
+    
+
+}
+@media screen and (max-width:400px) {
+.section3{
+    flex-direction: column;
+}
+}
